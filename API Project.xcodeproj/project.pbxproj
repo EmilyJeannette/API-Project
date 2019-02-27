@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		4D21B103222459C4002E7403 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D21B102222459C4002E7403 /* AppDelegate.swift */; };
-		4D21B105222459C4002E7403 /* GenreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D21B104222459C4002E7403 /* GenreViewController.swift */; };
+		4D21B105222459C4002E7403 /* GifViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D21B104222459C4002E7403 /* GifViewController.swift */; };
 		4D21B108222459C4002E7403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D21B106222459C4002E7403 /* Main.storyboard */; };
 		4D21B10A222459C7002E7403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D21B109222459C7002E7403 /* Assets.xcassets */; };
 		4D21B10D222459C7002E7403 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D21B10B222459C7002E7403 /* LaunchScreen.storyboard */; };
+		4DC893B72226FC670015BD17 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC893B62226FC670015BD17 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D21B0FF222459C4002E7403 /* API Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D21B102222459C4002E7403 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4D21B104222459C4002E7403 /* GenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreViewController.swift; sourceTree = "<group>"; };
+		4D21B104222459C4002E7403 /* GifViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifViewController.swift; sourceTree = "<group>"; };
 		4D21B107222459C4002E7403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D21B109222459C7002E7403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D21B10C222459C7002E7403 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D21B10E222459C7002E7403 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC893B62226FC670015BD17 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				4D21B102222459C4002E7403 /* AppDelegate.swift */,
-				4D21B104222459C4002E7403 /* GenreViewController.swift */,
+				4D21B104222459C4002E7403 /* GifViewController.swift */,
 				4D21B106222459C4002E7403 /* Main.storyboard */,
 				4D21B109222459C7002E7403 /* Assets.xcassets */,
 				4D21B10B222459C7002E7403 /* LaunchScreen.storyboard */,
 				4D21B10E222459C7002E7403 /* Info.plist */,
+				4DC893B62226FC670015BD17 /* SwiftyJSON.swift */,
 			);
 			path = "API Project";
 			sourceTree = "<group>";
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D21B105222459C4002E7403 /* GenreViewController.swift in Sources */,
+				4DC893B72226FC670015BD17 /* SwiftyJSON.swift in Sources */,
+				4D21B105222459C4002E7403 /* GifViewController.swift in Sources */,
 				4D21B103222459C4002E7403 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
